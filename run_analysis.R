@@ -113,7 +113,7 @@ write.table(tidy_df, "tidy_dataset.txt", row.names = FALSE)
 ## Cast the tidy dataset using fixed variables subject_id and activity,
 ## and calculating the averages of each measurment (stored as variable/value pairs in 
 ## the dataset) for each subject and each activity.
-averages_df <- dcast(tidy_df, subject_id + set + activity ~ variable, fun.aggregate = mean)
+averages_df <- dcast(tidy_df, subject_id + activity ~ variable, fun.aggregate = mean)
 
 #### Write averages dataset to "averages_observations.txt
 message("Writing averages dataset to \"averages_dataset.txt\" in the working directory")

@@ -7,7 +7,7 @@ The [course project](https://www.coursera.org/learn/data-cleaning/peer/FIZtT/get
 The source of the raw data is the [*Human Activity Recognition Using Smartphones Data Set*](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), which contains measurements obtained while subjects performed six different activities. 
 
 The resulting tidy dataset (averages_dataset.txt) contains the average of each measurement derived from the mean and standard deviation, for each activity and each subject. 
-* The tidy dataset was laid out following the principles described by Hadley Wickham in his paper [*Tiny Data*](http://vita.had.co.nz/papers/tidy-data.pdf), along with added insight provided by David Hood in his [*Getting and Cleaning Assignment*](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) blog post.
+* The tidy dataset was laid out following the principles described by Hadley Wickham in his paper [*Tidy Data*](http://vita.had.co.nz/papers/tidy-data.pdf), along with added insight provided by David Hood in his [*Getting and Cleaning Assignment*](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/) blog post.
 * I used a long/tall form (as opposed to a wide form) during the intermediate stages of reshaping the data, as the long form is often considered preferable for processing (see [*Wide & Long Data*](https://sejdemyr.github.io/r-tutorials/basics/wide-and-long/)).
 
 ## Contents

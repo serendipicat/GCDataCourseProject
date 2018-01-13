@@ -16,7 +16,7 @@ The resulting tidy dataset (averages_dataset.txt) contains the average of each m
 | Codebook.docx        | A Word document that describes the study design and data           |
 | run_analysis.R       | A script that generates averages_dataset.txt from the source data  |
 | averages_dataset.txt | A tidy dataset with average measurements per subject and activity  |
-| 
+
 ## Environment
 To run the script, you must have R Studio installed. The script uses the plyr, dplyr, and reshape2 packages. 
 
